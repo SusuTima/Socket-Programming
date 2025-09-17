@@ -79,7 +79,7 @@ int main() {
         printf("Enter message: ");
         fgets(message, sizeof(message), stdin);
 
-        // 去掉換行符
+        // 去掉換行符號
         message[strcspn(message, "\n")] = 0;
 
         // 加密訊息
